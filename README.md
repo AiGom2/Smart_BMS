@@ -1,9 +1,10 @@
 # Sensor
 
   - 온습도, 먼지 농도, 이산화탄소 농도 감지
-  - 센서가 읽은 값의 범위를 나누어 각 명령어를 3초마다 서버에 전달
+  - 센서가 읽은 값의 범위를 나누어 각 명령어를 서버에 전달
 
 # Dust Density(ug/m^3)
+  - 센서의 데이터를 3초마다 서버에 전달
   - Case 1 : 0 ~ 30 - Send Command BLUE
   - Case 2 : 31 ~ 80 - Send Command YELLOW
   - Case 3 : 81 ~ 150 - Send Command ORANGE
