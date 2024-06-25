@@ -633,7 +633,7 @@ void display_fnd( int N )  // Segment 함수 선언
   if(N < 0)
   {
     N=-N;
-    arrayNum[0] = 18;
+    //arrayNum[0] = 18;
   }
   else
     arrayNum[0] = N /100;  // 세그먼트에서 사용하는 천의 자리를 추출
